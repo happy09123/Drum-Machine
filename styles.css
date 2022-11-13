@@ -1,0 +1,84 @@
+/* ELEMENT SELECTORS */
+body {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #2a292b;
+    background-color: #89888c;
+}
+
+/* CLASS SELECTORS */
+.pad-bank {
+    display: grid;
+    grid-template-columns: repeat(3, 130px);
+    grid-auto-rows: 100px;
+    grid-gap: 15px;
+    width: 516px;
+}
+
+.drum-pad {
+    position: relative;
+    width: 125px;
+    height: 105px;
+    margin: 5px 0 0 0;
+    border-radius: 4px;
+    padding-top: 45px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: table-cell;
+    background-color: #908b96; /* a49aad */
+    box-shadow: gray 3px 3px 5px;
+}
+
+.display-container {
+    width: 240px;
+    height: 272px;
+    display: inline-block;
+    margin: -320px 0px 0 460px;
+    vertical-align: top;
+}
+
+.display-container h1 {
+    font-size: 25px;
+}
+
+.shape {
+    width: 200px;
+    height: 198px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.shape img {
+    max-width: 90%;
+    max-height: 90%;
+    margin: 10px 0 0 0;
+}
+
+/* ID SELECTORS */
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#drum-machine {
+    width: 685px;
+    height: 365px;
+    padding: 24px;
+    border-radius: 3px;
+    border: 2.5px solid #bcb8c1;
+    background-color: #b4aeba; /* 79747f */
+}
+
+#display {
+    width: 200px;
+    background-color: #a09ba5;
+    margin: auto;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 3px solid #a09ba5;
+    border-radius: 3px;
+    font-size: 1.2em;
+}
